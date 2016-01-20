@@ -1,0 +1,13 @@
+.container a{
+	color:red;
+}
+
+
+.jumbotron{
+	background: url("../img/background.jpg");
+	background-size: cover;
+}
+
+.jumbotron p {
+      color: #E68401;
+}
