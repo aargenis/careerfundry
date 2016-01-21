@@ -1,3 +1,15 @@
+body{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+html,body{
+	height: 100%;
+}
+
 .container a{
 	color:red;
 }
@@ -10,4 +22,29 @@
 
 .jumbotron p {
       color: #E68401;
+}
+
+.header{
+	width: 100%;
+	text-align: center;
+}
+
+.image,.firt, .second{
+	float: left;
+	position: relative;
+}
+
+.firt{
+  display: block;
+  background: #C3E4F3;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+
+.third{
+	clear:both;
+	float: left;
+	position: relative;
+	width: 100%;
 }
